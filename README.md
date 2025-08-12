@@ -72,14 +72,7 @@ Youtube_clone/
 
 ## 💻 Run your application
 
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/PatelKathan089/Web-Projects.git
-cd Web-Projects/Youtube_clone
-```
-
-2. **Frontend Setup**
+1. **Frontend Setup**
 
 ```bash
 cd frontend
@@ -87,7 +80,7 @@ npm install
 npm run dev // Start Frontend server
 ```
 
-3. **Backend Setup**
+2. **Backend Setup**
 
 ```bash
 cd backend
