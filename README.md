@@ -35,39 +35,31 @@ A full-stack YouTube clone application built using the **MERN Stack** (MongoDB, 
 ## 📂 Project Structure
 ```
 Youtube_clone/
-├── backend/
-│ ├── controllers/
-| |
-│ ├── models/
-| |
-│ ├── routes/
-| |
-| ├── .env
-| |
-| ├── package.json
-| |
-│ └── server.js
-|
-├── src
-|    |__ assets
-|    |__ components
-|    |__ context
-|    |__ pages
-|    |__ styles
-|    |__ App.css
-|    |__ App.jsx
-|    |__ index.css
-|    |__ main.jsx
-|
-├── .gitignore
-|
-├── index.html
-|
-├── package.json
-|
-├── README.md
-|
-└── vite.config.js
+├── backend/                       # Backend (Node.js + Express)
+│   ├── controllers/               # Controller files
+│   ├── models/                    # Mongoose models 
+│   ├── routes/                    # Express route files
+│   ├── .env                       # Environment variables 
+│   ├── package.json               # Backend dependencies
+│   └── server.js                  # Entry point for backend
+│
+├── frontend/                      # Frontend (React + Vite)
+│   ├── src/
+│   │   ├── assets/                # Images, icons, static files
+│   │   ├── components/            # Reusable UI components
+│   │   ├── context/               # React Context API files
+│   │   ├── pages/                 # Page-level components
+│   │   ├── styles/                # CSS/SCSS files
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── package.json               # Frontend dependencies
+│   └── vite.config.js
+│
+├── .gitignore                     # Files/folders to ignore in git
+├── README.md                      # Project documentation
 ```
 
 ## 💻 Run your application
